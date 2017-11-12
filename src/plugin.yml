@@ -1,0 +1,11 @@
+name: MemesBans
+main: ru.sumjest.plugin.MemesBans.MemesBans
+version: 1.0
+author: SumJest
+commands:
+   ban:
+   memesbans:
+   unban:
+   timeban:
+   offban:
+   offtimeban:

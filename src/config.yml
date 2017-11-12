@@ -1,0 +1,30 @@
+command:
+   ban:
+       usage: '§cИспользуйте: /ban [player] [reason]'
+   unban:
+       usage: '§cИспользуйте: /unban [player]'   
+   timeban:
+       usage: '§cИспользуйте: /timeban [player] [time] [reason]'
+   memesbans:
+       message: '§6This is information about plugin'
+       reload: '§aConfig reloaded.'
+       usage: '§cИспользуйте: /memesbans {reload}'
+permission: '§cУ вас нет прав на выполнение данной команды!'
+player_not_found: '§4Игрок %player% не найден'
+admin_ban_player: '§cАдминистратор %admin% забанил игрока %player% с причиной %reason%'
+admin_kick_player: '§cАдминистратор %admin% кикнул игрока %player% с причиной %reason%'
+you_are_banned: '§cАдминистратор %admin% забанил вас с причиной %reason%'
+you_are_timebanned: '§cАдминистратор %admin% забанил вас с причиной %reason%. Осталось %hour% часов %min% минут'
+you_are_kicked: '§cАдминистратор %admin% кикнул вас с причиной %reason%'
+player_not_banned: '§aИгрок %player% не забанен'
+player_unbanned: '§aИгрок %player% разбанен'
+player_offline_ban: '§cВы забанили %player% в оффлайне с причиной %reason%'
+player_offline_timeban: '§cВы забанили %player% в оффлайне с причиной %reason% на %hour% часов'
+mysql:
+    enabled: true
+    host: 'localhost'
+    port: '3306'
+    database: 'minecraft'
+    username: 'root'
+    password: 'root'
+    table: 'bans'
